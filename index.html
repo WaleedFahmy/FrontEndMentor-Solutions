@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Profile card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -14,16 +15,19 @@
     .attribution a { color: hsl(228, 45%, 44%); }
 
     body {
-      width: 1440px;
-      height: 900px;
+      width: 1000px;
+      height:600px;
       margin: 0;
+      position: relative;
       background-color:darkcyan;
       text-align: center;
       font-size: 18px;
+      font-family: 'Kumbh Sans', sans-serif;
+      font-weight: 400;
     }
 
-    br {
-      line-height: 2%;
+    h1 {
+      padding-top: 50px;
     }
 
     table {
@@ -33,32 +37,42 @@
     }      
 
     .botCir {
-      position: relative;
-      width: 70%;
-      left: 500px;
-      margin: 0;
+      position: absolute;
+      top: 500px;
+      left: 700px;
     }
 
     .topCir {
-      position: relative;
-      width: 70%;
-      right: 400px;
-      bottom: 100px;
-      margin: 0;
+      position: absolute;
+      right: 250px;
+      bottom:30px;
+      
     }
 
     .mainContainer{
-      height: 500px;
+      height: 400px;
       width: 350px;
       background-color: whitesmoke;
+      position: absolute;
       margin: 0px auto;
       border-radius: 4%;
-
+      top: 250px;
+      left: 610px;
     }
 
     .pattern-img {
       position: relative;
-      top: 5px;
+      width: 350px;
+      border-radius: 15px 15px 0px 0px;
+    }
+
+    .profile-img {
+      border-radius: 50%; 
+      border: solid;
+      border-color: white;
+      border-width: 5px;
+      position: absolute; 
+      right: 125px; top: 100px;
     }
   </style>
 </head>
@@ -66,25 +80,25 @@
 <body>
   <img class="topCir" src="images/bg-pattern-top.svg" alt="topCircle-img">
 
-  <div class="mainContainer">
-    <img class="pattern-img" src="images/bg-pattern-card.svg" alt="pattern-img">
-    <img style="border-radius: 50%;" src="images/image-victor.jpg" alt="person-img">
+    <div class="mainContainer">
+      <img class="pattern-img" src="images/bg-pattern-card.svg" alt="pattern-img">
+      <img class="profile-img" src="images/image-victor.jpg" alt="person-img">
 
-    <h1>Victor Crest 26</h1>
-    <h3>London</h3>
-    
-    <hr>
+      <h1>Victor Crest 26</h1>
+      <h3>London</h3>
+      
+      <hr>
 
-    <table>
-      <tr>
-        <td>80K</td> <td>803K</td> <td>1.4K</td>
-      </tr>
-      <tr>
-        <td>Followers</td> <td>Likes</td> <td>Photos</td>
-      </tr>
-    </table>
-    
-  </div>
+      <table>
+        <tr>
+          <td>80K</td> <td>803K</td> <td>1.4K</td>
+        </tr>
+        <tr>
+          <td>Followers</td> <td>Likes</td> <td>Photos</td>
+        </tr>
+      </table>
+      
+    </div>
 
   <img class="botCir" src="images/bg-pattern-bottom.svg" alt="bottomCircle-img">
   <div class="attribution">
