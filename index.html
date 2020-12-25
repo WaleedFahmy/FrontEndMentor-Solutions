@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Profile card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body {
+      width: 1440px;
+      height: 900px;
+      margin: 0;
+      background-color:darkcyan;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    br {
+      line-height: 2%;
+    }
+
+    table {
+      margin: auto;
+      text-align: center;
+      border-spacing: 5px;
+    }      
+
+    .botCir {
+      position: relative;
+      width: 70%;
+      left: 500px;
+      margin: 0;
+    }
+
+    .topCir {
+      position: relative;
+      width: 70%;
+      right: 400px;
+      bottom: 100px;
+      margin: 0;
+    }
+
+    .mainContainer{
+      height: 500px;
+      width: 350px;
+      background-color: whitesmoke;
+      margin: 0px auto;
+      border-radius: 4%;
+
+    }
+
+    .pattern-img {
+      position: relative;
+      top: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <img class="topCir" src="images/bg-pattern-top.svg" alt="topCircle-img">
+
+  <div class="mainContainer">
+    <img class="pattern-img" src="images/bg-pattern-card.svg" alt="pattern-img">
+    <img style="border-radius: 50%;" src="images/image-victor.jpg" alt="person-img">
+
+    <h1>Victor Crest 26</h1>
+    <h3>London</h3>
+    
+    <hr>
+
+    <table>
+      <tr>
+        <td>80K</td> <td>803K</td> <td>1.4K</td>
+      </tr>
+      <tr>
+        <td>Followers</td> <td>Likes</td> <td>Photos</td>
+      </tr>
+    </table>
+    
+  </div>
+
+  <img class="botCir" src="images/bg-pattern-bottom.svg" alt="bottomCircle-img">
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Waleed Elian</a>.
+  </div>
+  
+</body>
+</html>
