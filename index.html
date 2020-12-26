@@ -11,7 +11,7 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; text-align: center; position: absolute; top: 2000px;}
     .attribution a { color: hsl(228, 45%, 44%); }
 
     body {
@@ -33,8 +33,13 @@
     table {
       margin: auto;
       text-align: center;
-      border-spacing: 5px;
-    }      
+    } 
+
+    td {
+      padding-right: 20px;
+      padding-left: 20px;
+      padding-bottom: 10px;
+    }     
 
     .botCir {
       position: absolute;
@@ -74,6 +79,7 @@
       position: absolute; 
       right: 125px; top: 100px;
     }
+
   </style>
 </head>
 
@@ -85,16 +91,17 @@
       <img class="profile-img" src="images/image-victor.jpg" alt="person-img">
 
       <h1>Victor Crest 26</h1>
-      <h3>London</h3>
+      <h3 style="font-weight: 300;">London</h3>
       
       <hr>
 
       <table>
         <tr>
-          <td>80K</td> <td>803K</td> <td>1.4K</td>
+          <td><strong>80K</strong></td> <td><strong>803K</strong></td> <td><strong>1.4K</strong></td>
         </tr>
         <tr>
-          <td>Followers</td> <td>Likes</td> <td>Photos</td>
+          <td style="font-size: small;">Followers</td> <td style="font-size: small;">Likes</td>
+           <td style="font-size: small;">Photos</td>
         </tr>
       </table>
       
