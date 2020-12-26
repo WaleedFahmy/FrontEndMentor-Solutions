@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Single Price Grid Component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; position: absolute; top: 690px; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body {
+      background-color:hsl(204, 43%, 93%);
+      width: 1440px;
+      text-align: center;
+      margin: 20px auto;
+      font-size: 16px;
+      font-family: 'Karla', sans-serif;
+    }
+
+    .price { font-size: 40px; font-weight: 700;}
+    
+
+    .mainBox { position: relative; width:50%; margin: 120px auto; }
+
+    .mainBoxTop { position: absolute; margin: 0 auto; width: 105.5%; background-color: white; 
+       border-radius: 10px 10px 0px 0; text-align: justify; padding: 15px 30px; }
+
+    .botBoxRight { background-color:hsl(179, 43%, 62%); width: 50%; height: 305px; color: whitesmoke; text-align: justify; 
+      position: absolute; left:410px; top: 210px; margin: 0 auto; border-radius: 0px 0px 10px 0px; line-height: 0.7; padding: 20px 0 0 50px;}
+
+    .botBoxLeft { background-color:hsl(179, 62%, 43%); width: 50%; height: 305px; color: whitesmoke; text-align: justify; 
+      position: absolute; right:310px; top: 210px; margin: 0 auto; border-radius: 0px 0px 0px 10px; padding: 20px 0 0 50px;}
+
+    .btn {
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          border-radius: 5px;
+          height: 50px;
+          line-height: 10px;
+          color: #FFFFFF;
+          font-family: 'Karla', sans-serif;
+          width: 300px;
+          font-size: 28px;
+          font-weight: 200;
+          padding: 20px;
+          background-color: #F6C83D;
+          border: solid #337FED 1px;
+          text-decoration: none;
+          display: inline-block;
+          cursor: pointer;
+          text-align: center;
+          margin-top: 30px;
+}
+
+.btn:hover {
+   
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   text-decoration: none;
+}  </style>
+</head>
+<body>
+
+  <div class="mainBox">
+    <div class="mainBoxTop">
+      <h2 style="color: darkcyan;">Join our community</h2>
+
+      <h3 style="color: gold;">30-day, hassle-free money back guarantee</h3>
+    
+      <p style="color: darkcyan;">Gain access to our full library of tutorials along with expert code reviews.</p> 
+      <p style="color: darkcyan;">Perfect for any developers who are serious about honing their skills.</p>    
+    </div>
+    
+    <div class="botBoxLeft">
+      <h3>Monthly Subscription</h3>
+
+      <p><span class="price">&dollar;29</span> per month </p> 
+    
+      <p>Full access for less than &dollar;1 a day</p> 
+    
+      <button class="btn">Sign Up</button> 
+    
+    </div>
+    <div class="botBoxRight">
+      <h3>Why Us</h3> <br>
+      
+      <p>Tutorials by industry experts</p>
+      <p>Peer &amp; expert code review</p>
+      <p>Coding exercises</p>
+      <p>Access to our GitHub repos</p>
+      <p>Community forum</p>
+      <p>Flashcard decks</p>
+      <p>New videos every week</p>
+      
+    </div>
+    
+  </div>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Waleed Elian</a>.
+    </p>
+  </footer>
+</body>
+</html>
