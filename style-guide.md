@@ -15,7 +15,8 @@ The designs were created to the following widths:
 - Soft Magenta: hsl(300, 69%, 71%)
 
 ## Typography
-
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
 ### Headings
 
 - Family: [Poppins](https://fonts.google.com/specimen/Poppins)
