@@ -1,4 +1,79 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-body { width: 1440px;}
+body { 
+    width: 1440px;
+    background-color: whitesmoke;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h1, h2 {
+    
+    font-size: 1rem;
+}
+
+
+.person-img{
+    border-radius: 50%;
+    float: left; margin-right: 10px;
+}
+
+.mainFrame {
+    border: solid 10px;
+    height: 100%; width: 100%;
+}
+
+.Daniel, .Jonathan, .Jeanette, .Patrick, .Kira {
+    padding: 2%; border-radius: 10px; margin: 2%;
+    position: ;
+}
+
+.Daniel h1,.prag-top, .Jonathan h1,.prag-top, .Patrick h1,.prag-top{
+    color: red;
+}
+.Daniel h2,.prag-bot, .Jonathan h2,.prag-bot, .Patrick h2,.prag-bot{
+    color: hsl(0, 0%, 81%);
+}
+
+.Jeanette h1,.prag-top , .Kira h1,.prag-top {
+    color: hsl(217, 19%, 35%);
+}
+
+.Jeanette h2,.prag-bot, .Kira h2,.prag-bot {
+    color: gray;
+}
+
+.Daniel{
+    background-color: hsl(263, 55%, 52%);
+    width: 40%; height: 100%;
+}
+
+.Jonathan{
+    background-color: hsl(217, 19%, 35%);
+    width: 20%; height: 100%;
+}
+
+.Jeanette{
+    background-color: white;
+    width: 20%; height: 100%;
+}
+
+.Patrick{
+    background-color: hsl(219, 29%, 14%);
+    width: 40%; height: 100%;
+    color: aqua;
+}
+
+.Kira{
+    background-color: white;
+    width: 20%; height: 100%;
+}
