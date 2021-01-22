@@ -37,10 +37,17 @@ h1, h2 {
     position: ;
 }
 
-.Daniel h1,.prag-top, .Jonathan h1,.prag-top, .Patrick h1,.prag-top{
-    color: red;
+.Daniel h1, .Jonathan h1, .Patrick h1{
+    color: hsl(210, 46%, 95%);
 }
-.Daniel h2,.prag-bot, .Jonathan h2,.prag-bot, .Patrick h2,.prag-bot{
+.Daniel .prag-top, .Jonathan .prag-top, .Patrick .prag-top{
+    color: hsl(210, 46%, 95%);
+}
+
+.Daniel h2, .Jonathan h2, .Patrick h2{
+    color: hsl(0, 0%, 81%);
+}
+.Daniel .prag-bot, .Jonathan .prag-bot, .Patrick .prag-bot{
     color: hsl(0, 0%, 81%);
 }
 
