@@ -18,33 +18,42 @@ h1, h2 {
 }
 
 .Daniel, .Jonathan, .Jeanette, .Patrick, .Kira {
-    padding: 3%; border-radius: 10px; margin: ; height: 100%;
+    padding: 5%; border-radius: 10px; height: 100%;
 }
 
 .Daniel h1, .Jonathan h1, .Patrick h1{
-    color: hsl(210, 46%, 95%); font-size: 1.5rem;
+    color: hsl(210, 46%, 95%); font-size: 1.1rem;
 }
 .Daniel .prag-top, .Jonathan .prag-top, .Patrick .prag-top{
-    color: hsl(210, 46%, 95%); font-size: 1.5rem;
+    color: hsl(210, 46%, 95%); font-size: 1.1rem; font-weight: 600;
 }
 
 .Daniel h2, .Jonathan h2, .Patrick h2{
     color: hsl(0, 0%, 81%);
 }
 .Daniel .prag-bot, .Jonathan .prag-bot, .Patrick .prag-bot{
-    color: hsl(0, 0%, 81%);
+    color: hsl(0, 0%, 81%); font-weight: 600;
 }
 
-.Jeanette h1,.prag-top , .Kira h1,.prag-top {
-    color: hsl(217, 19%, 35%); font-size: 1.5rem;
+.Jeanette h1, .Kira h1 {
+    color: hsl(217, 19%, 35%); font-size: 1.1rem; 
 }
 
-.Jeanette h2,.prag-bot, .Kira h2,.prag-bot {
-    color: gray;
+.Jeanette .prag-top, .Kira .prag-top {
+    color: hsl(217, 19%, 35%); font-size: 1.1rem; font-weight: 600;
+}
+
+.Jeanette h2, .Kira h2 {
+    color: gray; 
+}
+
+.Jeanette .prag-bot, .Kira .prag-bot {
+    color: gray; font-weight: 600;
 }
 
 .Daniel{
-    background-color: hsl(263, 55%, 52%);
+    background-color: hsl(263, 55%, 52%); background-image: url(../images/bg-pattern-quotation.svg);
+    background-position: 80% 0; background-repeat: no-repeat; background-size: ;
     grid-area: da; 
 }
 
@@ -69,14 +78,15 @@ h1, h2 {
     grid-area: ki;
 }
 
-.mainBox { display: grid; grid-template-columns: repeat(7, 1fr); grid-template-rows:repeat(2, 1fr); grid-gap: 0.5%;
+.mainBox { padding: 5% 1%;
+    display: grid; grid-template-columns: repeat(12, 1fr); grid-template-rows:repeat(2, 1fr); grid-gap: 3%;
     grid-template-areas: 
-        " da da da jo jo ki ki "
-        " je je pa pa pa ki ki ";
+        " da da da da da da jo jo jo ki ki ki "
+        " je je je pa pa pa pa pa pa ki ki ki ";
     }
 
 @media screen and (max-width: 800px){
-    .mainBox { display: grid; grid-template-columns: 1fr; grid-template-rows:repeat(5, 1fr);
+    .mainBox { display: grid; grid-template-columns: 1fr; grid-template-rows:repeat(5, min-content);
         grid-template-areas: 
             " da "
             " jo "
