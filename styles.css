@@ -79,9 +79,6 @@ body {
 
 /* Info Section 2 */
 
-.info2{
-    
-}
 
 .info2 img{
     float: ;
@@ -121,9 +118,6 @@ body {
 
 /* Info Section 5 */
 
-.info5{
-
-}
 
 .card-me{
     border: none;
@@ -155,12 +149,15 @@ body {
 }
 .linky{
     text-align: left;
-    margin: 1.5%;
+    display:grid;
+    grid-template-columns: repeat(3, 0.75fr);
+    grid-template-rows: 1fr 1fr ;
 }
 
 .row-me{
     background-color: #f4f9f9;
     padding: 0% 10%;
+    
 }
 
 /* Mobile Version */
@@ -233,13 +230,6 @@ body {
 
     /* Info Section 2 */
 
-.info2{
-    
-}
-
-.info2 img{
-    
-}
 
 .info2 h3{
     color: hsl(210, 10%, 33%);
@@ -274,8 +264,20 @@ body {
 
 .linky{
     text-align: center;
-    margin: 4% 0;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr) ;
+    grid-template-areas:"f"
+                        "c"
+                        "pp"
+                        "pk"
+                        "i";
 }
 
+.f{grid-area: f;}
+.c{grid-area: c;}
+.pp{grid-area: pp;}
+.pk{grid-area: fpk;}
+.i{grid-area: i;}
 
 }
