@@ -162,3 +162,120 @@ body {
     background-color: #f4f9f9;
     padding: 0% 10%;
 }
+
+/* Mobile Version */
+
+@media screen and (max-width: 800px){
+    .headSection{
+        background-image: url("images/bg-header-mobile.png");
+        background-repeat: no-repeat;
+        background-size:contain; 
+        padding: 20% 5% 1%;
+        margin: 0 auto;
+    }
+     
+    .headSection img{
+        padding: 10%;
+    }
+
+    .headSection h1 {
+        color:hsl(210, 10%, 33%);
+        font-size: 2.5rem;
+        font-weight: 600;
+        padding: 5%;
+    }
+    
+    .headSection p{
+        color: hsl(201, 11%, 66%);
+        width: 80%;
+        margin: auto;
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+
+    .btnn{
+        border-radius: 30px;
+        border: none;
+        padding: 1% 3%;
+        color: whitesmoke;
+        font-size: 1.75rem;
+        font-weight: 400;
+        margin: 5% auto;
+        display: block;
+        width: 80%;
+    }
+
+    /* Info Section 1 */
+
+    .info1{
+        padding: 20% 5% 5%;
+        margin: 0 auto;
+    }
+
+    .info1 h2{
+        color: hsl(210, 10%, 33%);
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+
+    .info1 p{
+        color: hsl(201, 11%, 66%);
+        font-size: 1.25rem;
+        width: 80%;
+        margin: auto;
+        padding: 5% 0;
+    }
+
+    .respo-img{
+       margin: auto;
+       width: 75%; 
+    }
+
+    /* Info Section 2 */
+
+.info2{
+    
+}
+
+.info2 img{
+    
+}
+
+.info2 h3{
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding-top: 15%;
+    padding-bottom: 5%;
+    margin: auto;
+    text-align: center;
+}
+
+.info2 p{
+    color: hsl(201, 11%, 66%); 
+    font-size: 1.25rem;
+    font-weight: 400;
+    width: 75%;
+    margin: auto;
+}
+
+/* Logo Section */
+.logo-style{
+    padding: 3%;
+    text-align: center;
+    margin: auto;
+}
+.logo-style img {
+    padding: 7%;
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+.linky{
+    text-align: center;
+    margin: 4% 0;
+}
+
+
+}
