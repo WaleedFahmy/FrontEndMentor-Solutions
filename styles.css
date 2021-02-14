@@ -2,6 +2,7 @@
 .attribution a { color: hsl(228, 45%, 44%); }
 
 body {
+    
     text-align: center;
     font-size: 16px;
     font-family: 'Bai Jamjuree';
@@ -83,7 +84,7 @@ body {
 }
 
 .info2 img{
-    float: left;
+    float: ;
 }
 
 .info2 h3{
@@ -91,22 +92,23 @@ body {
     font-weight: 600;
     font-size: 1.5rem;
     text-align: left; 
+    margin-left: 20%;
+    padding-top: 5%;
 }
 
 .info2 p{
     color: hsl(201, 11%, 66%); 
     font-size: 1.25rem;
     font-weight: 400;
-    width: 25%;
-    margin:auto 15% auto auto;
-    
-
+    width: 55%;
+    margin:auto auto auto 20%;
+    text-align: left;
 }
 
 /* Info Section 3 */
 
 .info3{
-    padding-top: 20%;
+    padding-top: 5%;
 }
 
 /* Logo Section */
@@ -131,4 +133,32 @@ body {
     width: 20%;
     margin: auto;
     padding: 5%;
+}
+
+
+.social-logo{
+    width: 12%;
+    padding: 2%;
+    margin: 2%;
+}
+
+/*  footer  */
+
+.footer{
+    background-color: #f4f9f9;
+    margin: 1% 0 0 0;
+    padding: 5% 3%;
+}
+
+.bot-logo{
+    width: 20%;
+}
+.linky{
+    text-align: left;
+    margin: 1.5%;
+}
+
+.row-me{
+    background-color: #f4f9f9;
+    padding: 0% 10%;
 }
