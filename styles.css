@@ -160,6 +160,15 @@ body {
     
 }
 
+.linkstyles{
+    display:grid;
+   grid-template-columns:2fr 2fr 2fr ;
+   grid-template-rows: 2fr 2fr;
+}
+
+.linkstyles a{
+    margin: 3%;
+}
 /* Mobile Version */
 
 @media screen and (max-width: 800px){
@@ -264,20 +273,16 @@ body {
 
 .linky{
     text-align: center;
-    display:grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 1fr) ;
-    grid-template-areas:"f"
-                        "c"
-                        "pp"
-                        "pk"
-                        "i";
 }
 
-.f{grid-area: f;}
-.c{grid-area: c;}
-.pp{grid-area: pp;}
-.pk{grid-area: fpk;}
-.i{grid-area: i;}
+.linkstyles{
+    display:grid;
+   grid-template-columns:2fr;
+   grid-template-rows: 2fr 2fr 2fr 2fr 2fr;
+}
+
+.linkstyles a{
+    margin: 5%;
+}
 
 }
